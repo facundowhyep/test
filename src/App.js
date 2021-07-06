@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <button class="boton-de-prueba">Test</button>
       </header>
     </div>
   );

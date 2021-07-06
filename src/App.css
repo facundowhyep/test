@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -22,6 +23,23 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  /* Allows content to fill the viewport and go beyond the bottom */
+height: 100%;
+ 
+/* Allows you to scroll below the viewport; default value is visible */
+overflow-y: scroll;
+ 
+/* To smooth any scrolling behavior */
+-webkit-overflow-scrolling: touch;
+}
+
+.boton-de-prueba{
+  position: fixed;
+  bottom: 0;
+  height: 100px;
+  z-index: 1000;
+  width: 100vh;
+  
 }
 
 .App-link {
